@@ -24,7 +24,6 @@ var onDefault=function(req, res){
 };
               
            
-};
 app.get("/",onDefault);  // Request handler functions are registered
 app.get("/aboutus",onAboutUs);  // Request handler functions are registered
 var server=app.listen(8081);
